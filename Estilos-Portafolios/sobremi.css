@@ -1,0 +1,23 @@
+.sobre {
+  display: flex;
+  padding: 30px 20px;
+}
+
+.sobre__contenedor {
+  border-bottom: 2px solid #103D4A;
+}
+
+.sobre__titulo {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sobre__parrafo {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}

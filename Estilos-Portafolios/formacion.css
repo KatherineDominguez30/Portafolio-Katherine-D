@@ -1,0 +1,107 @@
+.academico {
+  margin: 20px 10px;
+}
+
+.academico__titulo {
+  font-size: 32px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.academico__cursos {
+  border-bottom: 2px solid #103D4A;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 0.8rem;
+  width: 98%;
+}
+
+.academico__cursos__box {
+  background-color: rgba(194, 198, 202, 0.219);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0.9rem;
+  padding-top: 10px;
+  margin-bottom: 2rem;
+}
+
+.academico__cursos__list {
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 4px;
+  padding-top: 10px;
+  width: 16rem;
+}
+
+.academico__cursos__item__img {
+  background-color: rgb(255, 255, 255);
+}
+
+.img_formacion {
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 1rem;
+  padding-top: 15px;
+}
+
+.inst__form {
+  font-size: 18px;
+  margin-left: 1rem;
+  padding-top: 5px;
+}
+
+.bton-certificados {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 12px 20px;
+  transition: 1s all;
+}
+
+.bton-certificados:hover {
+  background: rgba(133, 174, 209, 0.628);
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .academico__cursos__box {
+    width: 17rem;
+  }
+
+  .academico__cursos__list {
+    width: 15rem;
+  }
+}
+
+/*telefono*/
+@media only screen and (min-width: 600px) {
+  .academico__cursos__box {
+    width: 12rem;
+    margin: 1.2rem;
+  }
+  .academico__cursos__list {
+    width: 10rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+  .academico__cursos__box {
+    margin: 0.9rem;
+    width: 18rem;
+  }
+
+  .academico__cursos__list {
+    width: 16rem;
+  }
+}

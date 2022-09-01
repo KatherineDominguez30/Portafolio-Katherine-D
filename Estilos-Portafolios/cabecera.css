@@ -1,0 +1,143 @@
+:root {
+  --color-body: rgb(243, 235, 235);
+  --color-titulo: rgb(45, 45, 76);
+  --color-list: rgb(2, 2, 3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:url(../imagenes/degradado.png);
+  background-attachment: fixed;
+  margin: 0;
+  min-height:10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*logo kd*/
+.ima-pequeña {
+  width: 4rem;
+}
+
+/*donde esta minombre y el logo*/
+.menu {
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 100%;
+}
+
+/*mi nombre e imagen*/
+.menu__header {
+  align-items: center;
+  display: inline-flex;
+  margin-left: 4rem;
+}
+
+/*mi nombre*/
+.menu__title {
+  color: #150e5b;
+  padding-left: 1rem;
+  border-bottom: 2px solid #103D4A;
+}
+
+nav {
+  padding-right: 5rem;
+}
+
+a {
+  color: black;
+  font-size: 20.5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*donde esta los link-li*/
+.menu__list__item {
+  display: inline;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+
+/*donde esta el contacto  -- li*/
+section.menu nav ul.menu__list li:nth-child(6) {
+  font-weight: bold;
+}
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: block;
+  }
+  .menu__header {
+    margin-left: 0%;
+    padding-left: 15%;
+    width: 85%;
+  }
+  .menu__title {
+    font-size: 2rem;
+  }
+  nav {
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+    text-align: center;
+    /* border-bottom: 2px solid #103D4A; */
+  }
+}
+
+/*(landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+  .ima-pequeña {
+    width: 5rem;
+  }
+  .menu {
+    display: block;
+  }
+  .menu__header {
+    margin-left: 0%;
+    padding-left: 28%;
+    width: 72%;
+  }
+  .menu__title {
+    font-size: 2.1rem;
+    padding-left: 1rem;
+  }
+  nav {
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+  /*logo kd*/
+  .ima-pequeña {
+    margin-left: 2rem;
+    width: 4rem;
+  }
+  /*donde esta minombre y el logo*/
+  .menu {
+    display: inline-flex;
+    padding: 20px 0;
+  }
+  .menu__header {
+    padding-left: 2%;
+  }
+  nav {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding-left: 10%;
+    width: 110%;
+  }
+}

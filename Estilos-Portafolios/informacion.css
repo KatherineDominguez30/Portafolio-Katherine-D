@@ -1,0 +1,141 @@
+/*contenedor informacion*/
+.titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*el que lleva todo el contenedor, info-redes*/
+.titulo__div {
+  /* align-content: flex-start; */
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  width: 97%;
+  border-bottom: 2px solid #103D4A;
+  background-color: rgba(194, 198, 202, 0.219);
+}
+
+/*informacion de entrada*/
+.titulo__biografia {
+  font-size: 30px;
+}
+
+/*subtitulo*/
+.titulo__subsection {
+  font-size: 20px;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+/*caja donde esta las reds y nombres*/
+.link-img {
+  margin-top: 4%;
+  margin-left: 50%;
+  margin-bottom: 2%;
+}
+
+/*imagenes de las redes*/
+.titulo__redes {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5%;
+  width: 90%;
+}
+
+/*telefono*/
+@media only screen and (max-width: 600px) {
+  .titulo__div {
+    display: block;
+    padding-top: 10%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+  }
+
+  /*imagen perfil mia*/
+  .titulo__perfil {
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-top: 2%;
+    text-align: center;
+    width: 60%;
+  }
+
+  .titulo__biografia {
+    margin-left: 0%;
+    padding-left: 5%;
+  }
+
+  .titulo__contenedor {
+    display: inline-block;
+    margin-left: 0%;
+    padding-right: 0%;
+  }
+
+  /*subtitulo*/
+  .titulo__subsection {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .link-img {
+    margin-left: 4%;
+    margin-top: 8%;
+    margin-right: 4rem;
+  }
+}
+
+/*laptop*/
+@media only screen and (min-width: 600px) {
+  .titulo__perfil {
+    background-attachment: fixed;
+    margin-left: 15%;
+    width: 40%;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0%;
+    margin-left: 1%;
+    margin-top: 2.5%;
+  }
+
+  .titulo__contenedor {
+    display: inline-block;
+    margin-left: 0%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 2%;
+  }
+
+  .link-img {
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+  .titulo__perfil {
+    background-attachment: fixed;
+    height: 50vh;
+    margin: 0px;
+    margin-top: 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0%;
+  }
+
+  .titulo__contenedor {
+    display: inline-block;
+    margin-left: 0%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 2%;
+  }
+
+}

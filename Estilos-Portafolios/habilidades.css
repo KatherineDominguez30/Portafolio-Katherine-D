@@ -1,0 +1,36 @@
+.habilidades {
+  margin: 0px 10px;
+}
+
+.habilidades__title {
+  font-size: 32px;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.habilidades__line {
+  border-bottom: 2px solid #103D4A;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 10px;
+
+}
+
+.habilidades__box {
+  align-items: center;
+  background-color: rgba(194, 198, 202, 0.219);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 20px 20px;
+  padding: 2px;
+  width: 150px;
+}
+
+.habilidades__name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+.hobbies {
+  margin: 20px 10px;
+}
+
+.hobbies__title {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.hobbies__line {
+  border-bottom: 2px solid #103D4A;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 15px 10px;
+}
+
+.hobbies__box {
+  align-items: center;
+  display: flex;
+  background-color: rgba(194, 198, 202, 0.219);
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2px;
+  margin: 20px 20px 20px;
+  width: 150px;
+}
+
+.hobbies__name {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+
+.music {
+  margin-left: 20px;
+}
