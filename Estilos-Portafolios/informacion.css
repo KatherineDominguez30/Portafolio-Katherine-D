@@ -65,8 +65,9 @@
     text-align: center;
     width: 60%;
   }
-
+/*informacion de entrada*/
   .titulo__biografia {
+    font-size: 25px;
     margin-left: 0%;
     padding-left: 5%;
   }
