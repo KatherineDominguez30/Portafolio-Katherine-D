@@ -143,6 +143,11 @@ label {
   .formcontato__img {
     width: 200%;
   }
+
+  .caja_bton {
+    display: inline;
+    margin-left: 22%;
+  }
 }
 
 /*(landscape tablets, 768px and up) */
