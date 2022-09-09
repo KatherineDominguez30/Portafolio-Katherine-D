@@ -37,3 +37,10 @@
 .music {
   margin-left: 20px;
 }
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+    .hobbies__box {
+    margin: 10px 10px 20px;
+    }
+}
