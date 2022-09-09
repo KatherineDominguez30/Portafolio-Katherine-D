@@ -10,3 +10,16 @@
   font-size: 1.2rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: inline;
+    flex-direction: row;
+  }
+
+  .footer__rodape {
+    display: inline;
+    text-align: center;
+    flex-direction: row;
+  }
+}
