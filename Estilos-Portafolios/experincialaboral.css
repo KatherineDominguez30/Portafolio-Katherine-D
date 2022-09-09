@@ -100,46 +100,49 @@
 
 /*telefono*/
 @media only screen and (max-width: 600px) {
-  /*contenedor botones*/
-    .experiencia__description {
-      margin-top: 1rem;
-    }
 
-    .experiencia__botao--repo,
-    .experiencia__botao--demo {
+  /*contenedor botones*/
+  .experiencia__description {
+    margin-top: 1rem;
+  }
+
+  .experiencia__botao--repo,
+  .experiencia__botao--demo {
     width: 8rem;
-    }
+  }
 
   .experiencia__box__1 {
     align-items: center;
     flex-direction: row;
-    justify-content: none; 
+    justify-content: none;
+    margin-left: 0%;
     padding: 15px;
-
   }
-  
+
   .experiencia__box__2 {
     align-items: center;
     flex-direction: row;
-      justify-content: none;
+    justify-content: none;
+    margin-left: 0%;
     padding: 15px;
   }
 
-    /*entre botones*/
-    .experiencia__repo {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
+  /*entre botones*/
+  .experiencia__repo {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
   /*donde van la imagen*/
   .experiencia__img {
     margin-bottom: 1rem;
+    padding-left: 0%;
     width: 100%;
   }
 
   /*donde va toda la informacio  de texto*/
   .experiencia__info {
-    width: 95%;
+    width: 93%;
   }
 }
 
