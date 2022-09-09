@@ -100,6 +100,10 @@
 
 /*telefono*/
 @media only screen and (max-width: 600px) {
+  /*titulo*/
+    .experiencia__section__title {
+      margin-bottom: 2rem;
+    }
 
   /*contenedor botones*/
   .experiencia__description {
