@@ -74,10 +74,14 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
+  .academico__cursos {
+    margin-left: 0rem;
+  }
+
   .academico__cursos__box {
     width: 17rem;
   }
-
+  
   .academico__cursos__list {
     width: 15rem;
   }
@@ -89,6 +93,7 @@ h4 {
     width: 12rem;
     margin: 1.2rem;
   }
+
   .academico__cursos__list {
     width: 10rem;
   }
