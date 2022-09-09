@@ -100,20 +100,36 @@
 
 /*telefono*/
 @media only screen and (max-width: 600px) {
+  /*contenedor botones*/
+    .experiencia__description {
+      margin-top: 1rem;
+    }
+
+    .experiencia__botao--repo,
+    .experiencia__botao--demo {
+    width: 8rem;
+    }
+
   .experiencia__box__1 {
     align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: none; 
     padding: 15px;
 
   }
-
+  
   .experiencia__box__2 {
     align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+      justify-content: none;
     padding: 15px;
   }
+
+    /*entre botones*/
+    .experiencia__repo {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
 
   /*donde van la imagen*/
   .experiencia__img {
