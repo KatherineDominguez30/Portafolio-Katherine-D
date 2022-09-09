@@ -34,3 +34,10 @@
   line-height: 40px;
   text-align: center;
 }
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+  .habilidades__box {
+    margin: 10px 10px 20px;
+  }
+}
