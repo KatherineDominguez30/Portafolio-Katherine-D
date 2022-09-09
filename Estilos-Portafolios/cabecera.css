@@ -86,11 +86,11 @@ section.menu nav ul.menu__list li:nth-child(6) {
   .menu__header {
     margin-left: 0%;
     padding-left: 10%;
-    width: 80%;
+    width: 90%;
   }
 
   .menu__title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   nav {
