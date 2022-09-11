@@ -102,7 +102,7 @@ h4 {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 992px) {
   .academico__cursos__box {
-    margin: 0.9rem;
+    margin: 2rem;
     width: 18rem;
   }
 

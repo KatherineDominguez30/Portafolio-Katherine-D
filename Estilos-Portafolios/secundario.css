@@ -1,0 +1,199 @@
+/*donde esta minombre y el logo*/
+.menu_secundario {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 100%;
+}
+
+/*mi nombre e imagen*/
+.menu__header_secundario {
+  align-items: center;
+  display: inline-flex;
+  margin-left: 4rem;
+  width: 100%;
+}
+
+/*logo kd*/
+.ima-pequeña-secundario {
+  width: 4rem;
+}
+
+/*mi nombre*/
+.menu__title_secundario {
+  border-bottom: 2px solid #103D4A;
+  color: #150e5b;
+  display: inline-flex;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.menu__list__secundario {
+  margin-left: 60%;
+  width: 30%;
+}
+
+/*donde esta los link-li*/
+.menu__list__item__secundario {
+  display: inline;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+
+.titulo_secundario {
+  display: flex;
+  /* background-color: rgba(194, 198, 202, 0.489);  */
+  width: 100%;
+}
+
+.titulo__div__secundario {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  text-align: center;
+  width: 97%;
+}
+
+.titulo__contenedor__secundario {
+  margin-top: 1rem;
+  width: 97%;
+}
+
+.titulo__biografia__secundario {
+  font-size: 35px;
+}
+
+.imagen_secundario {
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  width: 90%;
+}
+
+.imag__redes__footer {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  width: 5vh;
+}
+
+/*********************************************swiper/deslizar****************************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+.contenedor {
+  align-items: center;
+  background-color: rgba(194, 198, 202, 0.489);  
+  display: flex;
+  height: 150vh;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.swiper {
+  height: fit-content;
+  width: 80%;
+}
+
+.swiper-slide img {
+  height: 140vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: rgb(81, 87, 173);
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background: rgb(81, 87, 173);
+}
+
+/****************************************************************************************************/
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+
+  /*donde esta minombre y el logo*/
+  .menu_secundario {
+    display: block;
+  }
+
+  .secundario {
+    display: flex;
+  }
+
+  /*mi nombre e imagen*/
+  .menu__header_secundario {
+    margin-left: 0rem;
+    margin-right: 0%;
+    padding-left: 2%;
+    width: 70%;
+  }
+
+  /*mi nombre*/
+  .menu__title_secundario {
+    font-size: 1.5rem;
+  }
+
+  .menu__list__secundario {
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-left: 0%;
+    width: 25%;
+  }
+
+  /*donde esta los link-li*/
+  .menu__list__item__secundario {
+    font-weight: 400;
+    display: inline-flex;
+    padding-left: 0%;
+    width: 100%;
+  }
+
+  .imag__redes__footer {
+    margin-left: 1rem;
+  }
+
+    .contenedor {
+      height: 100vh;
+      margin-left:3%;
+      width: 95%;
+    }
+  
+    .swiper {
+      width: 100%;
+    }
+  
+    .swiper-slide img {
+      height: 90vh;
+      width: 80%;
+    }
+}
+
+/*landscape tablets, 768px and up */
+@media only screen and (min-width: 600px) {
+  .secundario {
+    display: flex;
+    width: 100%;
+  }
+
+  /*mi nombre e imagen*/
+  .menu__header_secundario {
+    width: 40%;
+  }
+
+  .menu__list__secundario {
+    margin-left: 20%;
+    width: 30%;
+  }
+}
